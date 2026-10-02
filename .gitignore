@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# ML artifacts & datasets (keep sample models if needed, ignore large temp runs)
+ml_pipeline/artifacts/*.pkl
+ml_pipeline/artifacts/*.joblib
+ml_pipeline/data/raw/*.csv
+ml_pipeline/data/processed/*.csv
+
+# Redis / DB local data
+*.sqlite3
+*.db
+pgdata/
+redisdata/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
